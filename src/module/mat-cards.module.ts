@@ -39,10 +39,10 @@ export {MatCardNetworkStateComponent} from './components/network-state/mat-card-
     MatCardNetworkStateComponent
   ]
 })
-export class MatExtendedCardModule {
+export class MatCardsModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: MatExtendedCardModule,
+      ngModule: MatCardsModule,
       providers: []
     };
   }

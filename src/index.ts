@@ -1,1 +1,1 @@
-export * from './module/mat-extended-card.module';
+export * from './module/mat-cards.module';
