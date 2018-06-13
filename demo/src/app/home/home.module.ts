@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {MatExtendedCardModule} from '@angular-material-extensions/cards';
+import {MatCardsModule} from '@angular-material-extensions/cards';
 
 import {HomeRoutingModule} from './home-routing.module';
 import {HomeComponent} from './home.component';
@@ -10,7 +10,7 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 @NgModule({
   imports: [
     CommonModule,
-    MatExtendedCardModule.forRoot(),
+    MatCardsModule.forRoot(),
     HomeRoutingModule,
     FlexLayoutModule,
     MatCardModule,
