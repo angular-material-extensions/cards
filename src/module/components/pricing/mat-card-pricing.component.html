@@ -1,0 +1,17 @@
+<mat-card fxLayout="column" fxLayoutAlign="start center" class="pricing-card">
+  <mat-card-title-group>
+    <mat-card-title class="plan">{{planName}}</mat-card-title>
+    <mat-card-title class="price">{{price | currency: currencyCode :true:'2.2-2'}} <span class="value">$</span>
+      <mat-divider></mat-divider>
+    </mat-card-title>
+    <mat-card-subtitle *ngFor="let offerItem of packageContent">
+      {{offerItem}}
+    </mat-card-subtitle>
+  </mat-card-title-group>
+  <mat-card-content>
+
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="primary" (click)="onActionClicked.emit()">order now</button>
+  </mat-card-actions>
+</mat-card>
