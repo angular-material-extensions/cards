@@ -1,0 +1,49 @@
+.logo {
+  width: 256px;
+  height: 256px;
+  margin-top: 1.4rem;
+}
+
+.home {
+  margin-top: 1.0rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+.pricing-container {
+  margin: 2rem 0 2rem 0;
+}
+
+.value {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: auto;
+}
+
+.mat-card {
+  padding: 50px !important;
+  margin: 2rem auto 2rem auto !important;
+}
+
+mat-card-title-group {
+  text-align: center;
+
+  .plan {
+    font-size: 1.5rem;
+  }
+
+  .price {
+    font-size: 4rem;
+    padding: 0 1rem 0 1rem;
+  }
+}
+
+mat-card-actions {
+  margin-top: auto;
+
+  button {
+    text-transform: capitalize;
+  }
+}
